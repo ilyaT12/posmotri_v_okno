@@ -32,7 +32,123 @@ fieldset {
   padding: 0;
 }
 
+/* отступы для всех элементов списка, кроме последнего */
+li:not(:last-child) {
+  margin-bottom: 30px;
+}
+
 ul,
 ol {
   list-style: none;
 }
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  margin: 133px 30px;
+  align-items: flex-end;
+}
+
+/* левая часть */
+.result {}
+
+.result__video-container {
+  width: 711px;
+}
+.result__video {
+  width: 100%;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-form__fieldset {}
+
+.search-form__fieldset-title {}
+
+.search-form__label {}
+.search-form__label-text {}
+.visually-hidden {}
+.search-form__textfield {}
+
+.search-form__checkbox-list {}
+.search-form__checkbox {}
+.search-form__pseudo-checkbox {}
+.search-form__label-text {}
+
+.button {}
+.search-form__submit-button {}
+
+/* правая часть */
+
+.content__details {}
+
+.title {
+  font-family: Oswald;
+  font-size: 75px;
+  line-height: 94%;
+  text-transform: uppercase;
+  margin-bottom: 26px;
+}
+.content__accent {
+  color: #545050;
+}
+
+.content__list {
+  height: 298px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.cards-list-item-template {}
+.content__list-item {
+  /* display: flex;
+  flex-direction: row; */
+  /* margin-bottom: 30px; */
+}
+.content__card-link {
+  text-decoration: none;
+    color: #FFF;
+}
+.content__video-card {
+  display: flex;
+  width: 399px;
+  justify-content: space-between;
+}
+.content__video-card-description-container {}
+.content__video-card-title {
+  font-family: Oswald;
+  font-size: 30px;
+  /* font-style: normal; */
+  /* font-weight: 700; */
+  line-height: 100%;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.content__video-card-description {
+  font-size: 18px;
+  /* font-style: normal; */
+  /* font-weight: 400; */
+  line-height: 16.2px;
+}
+.content__video-card-thumbnail {
+  width: 194px;
+  height: 103px;
+}
+
+.more-button-template {}
+.more-button {}
+
+.preloader-template {}
+.preloader {}
+.preloader-chasing-squares {}
+.square {}
+
+.error-template {}
+.error {}
+.error__title {}
