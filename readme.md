@@ -2,8 +2,8 @@
 
 ## Яндекс.Практика. Кагорта 25. 02 спринт. Студент Илья Тыщук
 
-**Интро**
-[Проект "Посмотри в окно"]('https://github.com/ilyaT12/posmotri_v_okno.git'). - ссылка на gh-repositories.  
+**Интро**  
+[Проект "Посмотри в окно"](https://github.com/ilyaT12/posmotri_v_okno.git). - ссылка на gh-repositories.  
 [Посмотри в окно](https://ilyat12.github.io/posmotri_v_okno/) - ссылка на страницу.
 
 Одностраничный сайт, не адаптирован.  
