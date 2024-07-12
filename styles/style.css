@@ -17,7 +17,7 @@ html {
   background-color: #1b1919;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
@@ -49,7 +49,7 @@ ol {
   display: flex;
   gap: 29px;
   align-items: flex-end;
-  margin-left: 19px;
+  margin-left: 30px;
 }
 
 /* левая часть */
@@ -81,14 +81,14 @@ ol {
 .search-form__fieldset-title {
   font-weight: normal;
   font-size: 18px;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
 }
 
 /* Лэйбл */
 
 .search-form__label {
   display: flex;
-  gap: 5px;
+  gap: 6px;
   cursor: pointer;
 }
 
@@ -123,15 +123,16 @@ ol {
 
 .search-form__checkbox-list {
   display: flex;
-  gap: 15px;
+  gap: 16px;
 }
 
 .search-form__pseudo-checkbox {
   content: "";
-  border: 1px solid #fff;
-  height: 19px;
-  width: 19px;
+  height: 17px;
+  width: 17px;
   margin-top: 2px;
+  outline: 1px solid #fff;
+  outline-offset: 1px;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox {
@@ -140,6 +141,10 @@ ol {
 
 .search-form__checkbox:checked:active + .search-form__pseudo-checkbox {
   outline: 1px solid #fff;
+}
+
+.search-form__label:hover .search-form__label-text {
+  text-decoration: underline;
 }
 
 .button {
@@ -230,10 +235,6 @@ ol {
   display: flex;
   width: 399px;
   justify-content: space-around;
-}
-
-.content__video-card-description-container {
-  /* width: 200px; */
 }
 
 .content__video-card-title {
